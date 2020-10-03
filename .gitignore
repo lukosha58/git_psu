@@ -1,20 +1,40 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Built application files
+build/
 
-#Alexey
+# Files for the ART/Dalvik VM
+*.dex
 
-# Other files and folders
-.settings/
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Gradle files
+.gradle/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Signing files
+.signing/
+
+# User-specific configurations
+*.iml
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log Files
+*.log
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+# Keystore files
+# Uncomment the following lines if you do not want to check your keystore files in.
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Version control
+vcs.xml
